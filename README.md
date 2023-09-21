@@ -8,28 +8,32 @@ $ pwd /c/Users/%USERNAME%
 ```
 
 Перейти в нужную директорию команда _cd_ а вот знак _~_ <br>
-```$ cd ~ ```
+``` bash
+$ cd ~ 
+```
 
 Вывести содержимое директории — _ls_ а флаг _-a_ говорит про все файлы и папки, даже скрытые <br> 
-``` $ ls # вывели список файлов file.txt photo.png ls -a # вывели список, в котором отображаются скрытые файлы ., .. и .git . .. .git file.txt photo.png ```
+```bash 
+$ ls # вывели список файлов file.txt photo.png ls -a # вывели список, в котором отображаются скрытые файлы ., .. и .git . .. .git file.txt photo.png 
+```
 
 
 Создание файлов и директорий _touch_ и _mkdir_, копирование файлов _cp_ <br> 
+```bash
+$ touch my-new-file.txt # создали файл my-new-file.txt  
+$ mkdir new-dir # создали директорию new-dir
+$ cp что_копируем куда_копируем
+$ cp index.html src/ #скопировали index.html в папку src
+```
 
-```$ touch my-new-file.txt # создали файл my-new-file.txt ```
-``` $ mkdir new-dir # создали директорию new-dir ```
-``` $ cp что_копируем куда_копируем
-    $ cp index.html src/ #скопировали index.html в папку src```
-
-Перемещение файлов и папок _mv_
-''' $ mv table.csv ./very-important-files # сначала указываем имя файла, который хотим переместить, потом путь — куда перемещаем 
+Перемещение файлов и папок _mv_ <br>
+```bash 
+$ mv table.csv ./very-important-files # сначала указываем имя файла, который хотим переместить, потом путь — куда перемещаем 
 
 $ cd very-important-files
 $ ls
-table.csv # перешли в папку very-important-files и проверили, что всё сработало'''
-
-
-
+table.csv # перешли в папку very-important-files и проверили, что всё сработало
+```
 
 Вы можете выделять текст в markdown с помощью символов `_` или `*`. Например:
 
