@@ -198,15 +198,14 @@ Changes not staged for commit:
           modified:   fileA.txt
 ````
 
-Итоговый принцип такой:
+
+  "A: Пишем код" --> "B: Делаем add" --> C: Проверяем статус --> D: Делаем коммит --> Final: Делаем push для синхронизации
+
 ```mermaid
-
 graph LR;
-  "A: Пишем код" --> "B: Делаем add"; 
-
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 ```
-
- --> C: Проверяем статус --> D: Делаем коммит --> Final: Делаем push для синхронизации
 
 
 
