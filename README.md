@@ -202,6 +202,7 @@ Changes not staged for commit:
 ```mermaid
 graph LR;
  A: "Пишем код" --> B: "Делаем add" --> C: "Проверяем статус" --> D: "Делаем коммит" --> Final: "Делаем push для синхронизации репозиториев"
+```
 
 
 
