@@ -203,7 +203,7 @@ Changes not staged for commit:
 
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
+  Пишем код --> Делаем add;
   staged    -- "???"     --> tracked/comitted;
 ```
 
