@@ -204,7 +204,7 @@ Changes not staged for commit:
 ```mermaid
 graph LR;
   %%"Пишем код"    -->    "Делаем add";%%
-  Пишем "Пишем код"    -- "???"     --> tracked/comitted;
+  Пишем    -- "пишем код"     --> tracked/comitted;
 ```
 
 
